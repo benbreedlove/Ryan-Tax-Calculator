@@ -1,0 +1,250 @@
+body {
+	font-family: 'Nobile', sans-serif;
+}
+
+#container {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 8px 8px 8px 8px;
+    overflow: visible;
+    position: relative;
+	width: 100%;
+    max-width: 630px;
+}
+
+#container:before {
+    background: none repeat scroll 0 0 #FFFFFF;
+    bottom: 0;
+    content: " ";
+    left: 65.5%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 1px;
+    z-index: 100;
+}
+
+#container:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+}
+
+#container form {
+	background: -moz-linear-gradient(center top , #E5E5E5 0pt, #EFEFEF 100%) repeat scroll 0 0 #EFEFEF;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.25);
+    float: left;
+	width: 100%;
+    max-width: 615px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0.5em;
+    position: relative;
+    z-index: 6;
+	padding-bottom: 1em;
+}
+
+#container label {
+	color: #555555;
+    display: block;
+    font-size: 18px;
+	padding: 1em 0 0.5em 1em;
+}
+
+#annual_income_input {
+    -moz-box-sizing: content-box;
+    background: white;
+    border: 0 none;
+    border-radius: 3 3 3 3;
+    color: #555555;
+    font-size: 19px;
+    height: 19px;
+    line-height: 19px;
+    outline: 0 none;
+    padding: 11px 10px 9px 26px;
+    width: 8.5em;
+	margin: 0 0 0 1.5em;
+}
+
+#filing_status_select, #dependents_select {
+	margin: 0 0 0 1.5em;
+}
+
+#dependents_select {
+    padding-bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    float: left;
+}
+
+#id_amount {
+    -moz-box-sizing: content-box;
+    background: white;
+    border: 0 none;
+    border-radius: 0 0 0 0;
+    box-shadow: none;
+    color: #555555;
+    font-size: 19px;
+    height: 19px;
+    line-height: 19px;
+    outline: 0 none;
+    padding: 11px 10px 9px 26px;
+    width: 128px;
+}
+
+#obama_results, #ryan_results {
+    display: block;
+    float: left;
+    position: relative;
+	box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.25);
+	border-radius: 5px 5px 5px 5px;
+	padding: 1em;
+    margin: 0.5em;
+    width: 100%;
+    max-width: 267px;
+    z-index: 0;
+}
+
+#obama_results {
+	background: repeat scroll 0 0 #139CD8;
+}
+
+#ryan_results {
+	background: repeat scroll 0 0 #72C050;	
+}
+
+#obama_results h2, #ryan_results h2 {
+	color: #555555;
+}
+
+#obama_results p {
+	color: #555555;
+}
+
+#ryan_results p {
+    color: #555555;
+}
+
+#tax_under_obama_2013 {
+	background: -moz-linear-gradient(center top , #E5E5E5 0pt, #EFEFEF 100%) repeat scroll 0 0 #EFEFEF;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+	border-radius: 5px 5px 5px 5px;
+	padding: 1em;
+	margin-bottom: 1em;
+}
+
+#tax_under_obama_previous {
+    background: -moz-linear-gradient(center top , #E5E5E5 0pt, #EFEFEF 100%) repeat scroll 0 0 #EFEFEF;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+	border-radius: 5px 5px 5px 5px;
+	padding: 1em;
+}
+
+#tax_under_ryan_2013 {
+	background: -moz-linear-gradient(center top , #E5E5E5 0pt, #EFEFEF 100%) repeat scroll 0 0 #EFEFEF;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+	border-radius: 5px 5px 5px 5px;
+	padding: 1em;
+}
+
+
+img {
+	width: 50%;
+}
+
+
+#averages {
+	background: -moz-linear-gradient(center top , #E5E5E5 0pt, #EFEFEF 100%) repeat scroll 0 0 #EFEFEF;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.25);
+    float: left;
+	width: 100%;
+    max-width: 615px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0.5em;
+    position: relative;
+    z-index: 6;
+	padding: 1em;
+    overflow: hidden;
+}
+
+#averages div {
+	background: -moz-linear-gradient(center top , #E5E5E5 0pt, #EFEFEF 100%) repeat scroll 0 0 #EFEFEF;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.25);	
+    float: left;
+	width: 100%;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0.25em;
+	padding: 0.25em;
+}
+
+#averages h3 {
+    font-size: 18px;
+	font-weight: bold;
+}
+
+#averages h4{
+	color: #555555;
+	padding: 0em 0.5em 0em 0.5em;
+}
+
+#averages h5 {
+	color: #555555;
+	font-size: 14px;
+	padding: 0em 0.75em 0em 0.75em;
+}
+
+#how_do_i_shot_web {
+	background: -moz-linear-gradient(center top , #E5E5E5 0pt, #EFEFEF 100%) repeat scroll 0 0 #EFEFEF;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.25);
+    float: left;
+	width: 100%;
+    max-width: 615px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0.5em;
+    position: relative;
+    z-index: 6;
+	padding: 1em;
+    overflow: hidden;
+}
+
+#how_do_i_shot_web h3 {
+    font-size: 18px;
+	font-weight: bold;
+}
+
+#how_do_i_shot_web p {
+	color: #555555;
+	font-size: 14px;
+	padding: 0.5em;
+} 
+
+/*
+#average-americans li {
+    margin: 20px 0 30px;
+    padding: 0 20px;
+}
+#average-americans li {
+    border-left: 1px solid #008FC5;
+    float: left;
+    margin-left: -1px;
+    width: 209px;
+}
+#average-americans li:first-child {
+    border-left: 0 none;
+    margin-left: 0;
+}
+#average-americans li {
+    padding: 0 40px;
+    width: 233px;
+}
+.oldie #average-americans li {
+    border-left: 1px solid #008FC5;
+    float: left;
+    margin-left: -1px;
+    padding: 0 40px;
+    width: 233px;
+}
+.oldie #average-americans li:first-child {
+    border-left: 0 none;
+    margin-left: 0;
+}
+*/
