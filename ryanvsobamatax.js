@@ -50,7 +50,7 @@ jQuery(document).ready(function() {
             if (results_showing) {
                 return;
             }
-            //jQuery('#title_page').hide();
+            jQuery('#title_page').hide();
             jQuery('#ryan_results').show();
             jQuery('#obama_results').show();
             results_showing = true;
