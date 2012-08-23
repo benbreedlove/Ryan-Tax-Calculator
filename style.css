@@ -91,7 +91,7 @@ body {
     width: 128px;
 }
 
-#obama_results, #ryan_results {
+#romney_results, #obama_results, #ryan_results {
     display: block;
     float: left;
     position: relative;
@@ -108,11 +108,11 @@ body {
 	background: repeat scroll 0 0 #139CD8;
 }
 
-#ryan_results {
+#romney_results, #ryan_results {
 	background: repeat scroll 0 0 #72C050;	
 }
 
-#obama_results h2, #ryan_results h2 {
+#romney_results, #obama_results h2, #ryan_results h2 {
 	color: #555555;
 }
 
@@ -120,7 +120,7 @@ body {
 	color: #555555;
 }
 
-#ryan_results p {
+#romney_results, #ryan_results p {
     color: #555555;
 }
 
@@ -132,7 +132,7 @@ body {
 	margin-bottom: 1em;
 }
 
-#tax_under_obama_previous {
+#tax_under_romney_2013 {
     background: -moz-linear-gradient(center top , #E5E5E5 0pt, #EFEFEF 100%) repeat scroll 0 0 #EFEFEF;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
 	border-radius: 5px 5px 5px 5px;

@@ -10,7 +10,8 @@
         <formfield>
             <form action="#">
                 <label for="annual_income_input">Insert Annual Income Here</label>
-                <input type="text" pattern="^[\d,]+$" placeholder="$" autocomplete="off" id="annual_income_input" name="annual_income_input"></input>
+                <input type="text" pattern="^[\d,\$]+$" placeholder="$" autocomplete="off" 
+                id="annual_income_input" name="annual_income_input" maxlength="13"></input>
                 <label for="filing_status_select">Select Filing Status</label>
                 <formfield id="filing_status_select">
                     <input name="filing_status" value="single" type="radio">
@@ -49,22 +50,25 @@
             <div id="tax_under_obama_2013">
                 <h2>2013</h2>
                 <h1>$<span class="dollar_results">3873</span></h1>
-                <h4>Your continued tax savings</h4>
+                <h4>Obama results</h4>
                 <p>
                     On income at least.  Décalage sur un ton décadent ou comment parodier l'esprit gonzo sur Ultra
                 </p>
             </div>
-            <div id="tax_under_obama_previous">
-                <h2>2009-2012</h2>
-                <h1>$<span class="dollar_results">3873</span></h1>
-                <h4>Your Tax Savings</h4>
-                <p>
+        </div>
+        <div id="romney_results" style="display: none;">
+            <h4>Romney results</h4>
+            <div id="tax_under_romney_2013">
+				<h2>2013</h2>
+            	<h1>$<span class="dollar_results">3873</span></h1>
+            	<h4>Changes!</h4>
+            	<p>
                     One must not introduce reformist illusions about the spectacle, as if it could be eventually improved from within, ameliorated by its own specialists under the supposed control of a better-informed public opinion. To do so would be tantamount to giving revolutionaries’ approval to a tendency, or an appearance of a tendency, in a game that we absolutely must not play; a game that we must reject in its entirety in the name of the fundamental requirements of the revolutionary project, which can in no case produce an aesthetics because it is already entirely beyond the domain of aesthetics. The point is not to engage in some sort of revolutionary art-criticism, but to make a revolutionary critique of all art.
-                </p>
+            	</p>
             </div>
         </div>
         <div id="ryan_results" style="display: none;">
-            <h4>Tax Increase Under Ryan</h4>
+            <h4>Ryan results</h4>
             <div id="tax_under_ryan_2013">
 				<h2>2013</h2>
             	<h1>$<span class="dollar_results">3873</span></h1>
@@ -78,8 +82,8 @@
                     never undertaken by a person, but by a mediator, shaman or speaker, whose “performance” may be admired (that is, his 		mastery of the narrative code), but not his “genius”
             	</p>
 				<div>
-                Boy it would be nice to have some fancy share buttons or some shit here, unfortunately it would approximately double the dev time needed to make this thing work
-                <img src="http://farm3.staticflickr.com/2634/3945387218_fd7b083907.jpg"/>
+                    Boy it would be nice to have some fancy share buttons or some shit here, unfortunately it would approximately double the dev time needed to make this thing work
+                    <img src="http://farm3.staticflickr.com/2634/3945387218_fd7b083907.jpg"/>
             	</div>
         	</div>
 		</div>	
